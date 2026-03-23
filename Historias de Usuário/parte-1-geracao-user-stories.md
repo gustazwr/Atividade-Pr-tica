@@ -237,6 +237,66 @@ Como especialista em engenharia de software, elaborei este backlog com 20 histó
 - **Complexidade:** Baixa.
 - **Estimativa:** 2 story points.
 
+# Histórias Escolhidas
+
+### 1. Busca por Categorias
+
+- **História:** Enquanto **Cliente**, desejo **filtrar lojas por categorias (ex: Pizza, Japonesa)**, para **encontrar rapidamente o que desejo comer**.
+- **Critérios de Aceitação:**
+    1. A tela inicial deve exibir ícones clicáveis para cada categoria.
+    2. Ao clicar, apenas lojas que pertencem àquela categoria devem ser listadas.
+    3. Se não houver lojas abertas na categoria, exibir mensagem informativa.
+- **Regras de Negócio:** Uma loja pode pertencer a até 3 categorias simultâneas.
+- **Complexidade:** Baixa.
+- **Estimativa:** 2 story points.
+
+### 2. Pagamento Via Carteira Digital/Pix
+
+- **História:** Enquanto **Cliente**, desejo **pagar via Pix de forma integrada**, para **agilizar a finalização do pedido**.
+- **Critérios de Aceitação:**
+    1. Gerar QR Code e código "Copia e Cola" após a confirmação.
+    2. O sistema deve verificar o recebimento do pagamento em até 60 segundos.
+    3. Cancelar automaticamente o pedido se o pagamento não ocorrer no prazo.
+- **Regras de Negócio:** A transação deve seguir os padrões de segurança do Banco Central.
+- **Complexidade:** Alta.
+- **Estimativa:** 8 story points.
+
+### 3. Navegação Integrada GPS
+
+- **História:** Enquanto **Entregador**, desejo **abrir a rota no Google Maps ou Waze com um clique**, para **chegar ao destino pelo caminho mais rápido**.
+- **Critérios de Aceitação:**
+    1. Botão "Navegar" presente na tela de pedido aceito.
+    2. Opção de escolher qual app de mapas externo utilizar.
+    3. Passar as coordenadas exatas do cliente para o app externo.
+- **Regras de Negócio:** O sistema deve registrar o horário de partida para o cálculo de SLA.
+- **Complexidade:** Baixa.
+- **Estimativa:** 2 story points.
+- **Relacionado com o(s) requisito(s):** 1.
+
+### 4. Chat com a Loja/Cliente
+
+- **História:** Enquanto **Entregador**, desejo **enviar mensagens rápidas via chat**, para **resolver problemas de localização ou atrasos**.
+- **Critérios de Aceitação:**
+    1. Chat habilitado apenas enquanto o pedido estiver ativo.
+    2. Opções de frases pré-definidas (ex: "Cheguei no local", "Estou aguardando o pedido").
+    3. O histórico deve ser apagado 24h após a conclusão do pedido por privacidade.
+- **Regras de Negócio:** Proibida a troca de links externos ou números de telefone.
+- **Complexidade:** Alta.
+- **Estimativa:** 8 story points.
+
+### Persona: Loja
+
+### 5. Gestão de Disponibilidade de Itens
+
+- **História:** Enquanto **Loja**, desejo **ativar ou desativar itens do cardápio em tempo real**, para **evitar pedidos de produtos esgotados**.
+- **Critérios de Aceitação:**
+    1. Dashboard deve listar todos os produtos com um interruptor (on/off).
+    2. A alteração deve refletir no app do cliente instantaneamente.
+    3. Deve haver uma opção de "Esgotado por hoje" (reset automático no dia seguinte).
+- **Regras de Negócio:** Itens desativados não podem aparecer na busca do cliente.
+- **Complexidade:** Baixa.
+- **Estimativa:** 2 story points.
+
 
 
 
