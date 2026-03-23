@@ -234,5 +234,5 @@ Enquanto *responsável pela loja*, desejo **gerenciar a disponibilidade dos iten
 >- Persona mais clara.  
 >- Estados dos itens melhor definidos.  
 >- Critérios mais testáveis (tempo definido).  
-- Inclusão de regras importantes (log e permissão).  
-- Melhor usabilidade com feedback visual.  
+>- Inclusão de regras importantes (log e permissão).  
+>- Melhor usabilidade com feedback visual.  
