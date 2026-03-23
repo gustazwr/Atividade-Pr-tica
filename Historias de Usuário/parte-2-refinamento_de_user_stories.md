@@ -38,7 +38,6 @@ Enquanto *cliente autenticado com um pedido confirmado*, desejo **realizar o pag
 - **Complexidade:** Alta  
 - **Estimativa:** 8 story points  
 
----
 
  >## Descrição das melhorias realizadas
 >- A história foi **tornada mais específica**, incluindo contexto de autenticação e estado do pedido.  
@@ -86,7 +85,6 @@ Enquanto *cliente*, desejo **filtrar as lojas disponíveis por categorias de cul
 - **Complexidade:** Baixa  
 - **Estimativa:** 2 story points  
 
----
 
 >## Descrição das melhorias realizadas
 >- A história foi **mais detalhada**, incluindo o benefício direto ao usuário.  
@@ -135,7 +133,6 @@ Enquanto *entregador autenticado com pedido em andamento*, desejo **iniciar a na
 - **Complexidade:** Baixa  
 - **Estimativa:** 2 story points  
 
----
 
 >## Descrição das melhorias realizadas
 >- A história foi **tornada mais específica**, com contexto e status do pedido.  
@@ -186,8 +183,6 @@ Enquanto *entregador autenticado em um pedido ativo*, desejo **utilizar um chat 
 - **Complexidade:** Alta  
 - **Estimativa:** 8 story points  
 
----
-
 >## Descrição das melhorias realizadas
 >- Maior especificidade no contexto.  
 >- Critérios mais testáveis.  
@@ -234,8 +229,6 @@ Enquanto *responsável pela loja*, desejo **gerenciar a disponibilidade dos iten
 
 - **Complexidade:** Baixa  
 - **Estimativa:** 2 story points  
-
----
 
 >## Descrição das melhorias realizadas
 >- Persona mais clara.  
